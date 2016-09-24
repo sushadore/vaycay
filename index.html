@@ -5,107 +5,152 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Vacation Survey</title>
+    <title>Vacation Finder</title>
   </head>
   <body>
   <div class="container">
-    <h1>Find your ideal vacation spot!</h1>
-    <p>Please answer these 5 simple questions to find the perfect location to fit your tastes.</p>
+    <div class="jumbotron">
+      <h1>Ideal Vacation Location!</h1>
+    </div>
 
+    <h4><strong>Simply answer these 6 questions to find the perfect spot for your next vacation.</strong></h4>
     <div id="result">
-      <h4>Activity preference:</h4>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="adventure">
-          Adventure and outdoor activities
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="culture">
-          Cultural enrichment
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="relax">
-          Relaxation
-        </label>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <h4>Lodging preference:</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="lodging" value="resort">
+              Resort
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="lodging" value="airbnb">
+              Air BnB
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="lodging" value="hostel">
+              Hostel
+            </label>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <h4>Activity preference:</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="activity" value="adventure">
+              Adventure
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="activity" value="culture">
+              Cultural enrichment
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="activity" value="relax">
+              Relaxation
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <h4>Dining preference:</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="dining" value="fine">
+              Fine dining
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="dining" value="regional">
+              Regional cuisine
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="dining" value="trendy">
+              New and hip
+            </label>
+          </div>
+        </div>
+
+
       </div>
 
-      <h4>Dining preference:</h4>
-      <div class="radio">
-        <label>
-          <input type="radio" name="dining" value="fine">
-          Fine dining
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="dining" value="regional">
-          Regional cuisine
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="dining" value="trendy">
-          New and hip
-        </label>
-      </div>
+      <div class ="row">
+          <div class="col-sm-4">
+            <h4>Shopping preference:</h4>
+            <div class="radio">
+              <label>
+                <input type="radio" name="shopping" value="botique">
+                Small botiques
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="shopping" value="market">
+                Outdoor market
+              </label>
+            </div>
+          </div>
 
-      <h4>Shopping preference:</h4>
-      <div class="radio">
-        <label>
-          <input type="radio" name="shopping" value="botique">
-          Small botiques
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="shopping" value="market">
-          Outdoor market
-        </label>
-      </div>
+          <div class="col-sm-4">
+          <h4>Weather preference:</h4>
+          <div class = "radio">
+            <label>
+              <input type="radio" name="weather" value="warm">Warm
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="weather" value="cool">Cool
+            </label>
+          </div>
+        </div>
 
-    <h4>Weather preference:</h4>
-      <div class = "radio">
-        <label>
-          <input type="radio" name="weather" value="warm">warm
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="weather" value="cool">cool
-        </label>
-
-      <h4>Current passport:</h4>
-      <div class="radio">
-        <label>
-          <input type="radio" name="passport" value="yes">yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="passport" value="no">no
-        </label>
+        <div class="col-sm-4">
+          <h4>Current passport:</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="passport" value="yes">Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="passport" value="no">No
+            </label>
+          </div>
+        </div>
       </div>
       <button type="submit" class="button">Show vacation!</button>
     </div>
 
     <div id="cabo">
-      <h2>Cabo san Lucas!</h2>
+      <h2>Cabo san Lucas, Mexico!</h2>
+      <img src="img/cabo.jpeg" alt="photo of Cabo San Lucas">
     </div>
 
     <div id="neworleans">
-      <h2>New Orleans!</h2>
+      <h2>New Orleans, Louisiana!</h2>
+      <img src="img/neworleans.jpeg" alt="photo of New Orleans">
     </div>
 
     <div id="london">
-      <h2>London!</h2>
+      <h2>London, England!</h2>
+      <img src="img/london.jpg" alt="photo of London">
     </div>
 
     <div id="parkcity">
-      <h2>Park City!</h2>
+      <h2>Park City, Utah!</h2>
+      <img src="img/parkcity.jpeg" alt="photo of Park City">
     </div>
   </div>
   </body>
