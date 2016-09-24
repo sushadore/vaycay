@@ -1,5 +1,6 @@
 $(document).ready(function() {
  $("#result button").click(function() {
+   $(".survey-hidden").hide();
     var temperature = $("input:radio[name=weather]:checked").val();
     var passport = $("input:radio[name=passport]:checked").val();
     var activity = $("input:radio[name=activity]:checked").val();
@@ -31,5 +32,6 @@ $(document).ready(function() {
        $("#parkcity").show();
     } else {
     }
+
   });
 });
