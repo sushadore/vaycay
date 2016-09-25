@@ -2,23 +2,48 @@
   margin-top: 20px;
 }
 
+img {
+  margin-bottom: 5px;
+}
+
 #cabo {
   display: none;
 }
+
+#cabo h2 {
+  color: #51B0A3;
+}
+
 #london {
   display: none;
+}
+
+#london h2 {
+  color: #DF868F;
 }
 
 #neworleans {
   display: none;
 }
 
- #parkcity {
+#neworleans h2 {
+  color: #5EB76E;
+}
+
+#parkcity {
    display: none;
  }
 
+#parkcity h2 {
+  color: #5C92C5;
+}
+
 #survey {
   display: none;
+}
+
+#cabo h2 {
+  color: #33FFE3;
 }
 
 button {
