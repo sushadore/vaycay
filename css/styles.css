@@ -2,6 +2,10 @@
   margin-top: 20px;
 }
 
+button {
+  cursor: pointer;
+}
+
 img {
   margin-bottom: 5px;
 }
@@ -44,8 +48,4 @@ img {
 
 #cabo h2 {
   color: #33FFE3;
-}
-
-button {
-  cursor: pointer;
 }
