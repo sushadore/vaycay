@@ -16,3 +16,11 @@
  #parkcity {
    display: none;
  }
+
+#survey {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
