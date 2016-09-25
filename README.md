@@ -10,7 +10,7 @@ This web page makes vacation suggestions based on survey results
 
 ## Setup/Installation Requirements
 
-Follow this link in your browser http://sushadore.github.io/First-Code-Review/index.html
+Follow this link in your browser http://sushadore.github.io/Second-Code-Review/index.html
 
 ## Known Bugs
 
