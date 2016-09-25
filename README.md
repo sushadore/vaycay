@@ -1,8 +1,8 @@
 # Second Code Review
 
-#### A vacation recommendation survey, 9.25.2016
+#### A vacation survey JavaScript & JQuery exercise done at Epicodus, Portland, OR 9.25.2016
 
-#### By Susha Dore
+#### By Susha Dore 
 
 ## Description
 
